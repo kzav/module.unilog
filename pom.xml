@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ten-dimensions</groupId>
+  <artifactId>module.unilog</artifactId>
+  <version>0.1.0</version>
+  <description>Integrant methods for the unilog library</description>
+  <dependencies>
+    <dependency>
+      <groupId>org.clojure</groupId>
+      <artifactId>clojure</artifactId>
+      <version>1.11.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.clojure</groupId>
+      <artifactId>tools.logging</artifactId>
+      <version>1.2.4</version>
+    </dependency>
+    <dependency>
+      <groupId>duct</groupId>
+      <artifactId>core</artifactId>
+      <version>0.8.0</version>
+    </dependency>
+    <dependency>
+      <groupId>duct</groupId>
+      <artifactId>logger</artifactId>
+      <version>0.3.0</version>
+    </dependency>
+    <dependency>
+      <groupId>integrant</groupId>
+      <artifactId>integrant</artifactId>
+      <version>0.8.0</version>
+    </dependency>
+    <dependency>
+      <groupId>spootnik</groupId>
+      <artifactId>unilog</artifactId>
+      <version>0.7.31</version>
+    </dependency>
+  </dependencies>
+</project>
